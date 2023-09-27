@@ -8,7 +8,8 @@ This repository offers a maintenance-free Docker deployment version of the [Pand
 
   ```shell
   docker pull duan2001/pandora
-  docker run -d --name=pandora --restart=unless-stopped -v $(pwd)/pandora:/data -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:8899 -p 8899:8899 -d duan2001/pandora
+  # Cloud模式（操作类似于官方，其他启动方式请参考下面官方文档）
+  docker run -d --name=pandora --restart=unless-stopped -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:8899 -p 8899:8899 -d duan2001/pandora
   ```
 
 * 更新说明：只需要重启容器即可自动更新。
