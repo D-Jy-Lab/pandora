@@ -1,5 +1,6 @@
 # Pandora
 This repository offers a maintenance-free Docker deployment version of the [Pandora project](https://github.com/zhile-io/pandora). Streamlining the setup and ensuring smoother deployments for users.
+
 此仓库提供了[Pandora项目](https://github.com/zhile-io/pandora)的免维护Docker部署版本。它简化了设置过程，并确保用户更顺畅地部署。
 
 ## 如何搭建运行
