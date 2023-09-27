@@ -12,7 +12,7 @@ This repository offers a maintenance-free Docker deployment version of the [Pand
   docker run -d --name=pandora --restart=unless-stopped -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:8899 -p 8899:8899 -d duan2001/pandora
   ```
 
-* 更新说明：只需要重启容器即可自动更新。
+* 更新说明：只需要重启容器即可自动更新最新版本。
 * 更多细节，请参考官方文档 [doc/wiki.md](https://github.com/zhile-io/pandora/blob/master/doc/wiki.md)。
 
 ---

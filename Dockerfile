@@ -8,7 +8,7 @@ VOLUME /data
 
 WORKDIR /opt/app
 
-RUN pip --no-cache-dir install --upgrade pip && pip --no-cache-dir install pandora-chatgpt[api,cloud]
+RUN pip --no-cache-dir install --upgrade pip && pip --no-cache-dir install pandora-chatgpt[api,cloud] PyMySQL
 
 ADD start.sh .
 
