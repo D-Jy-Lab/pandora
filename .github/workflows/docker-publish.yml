@@ -3,6 +3,13 @@ name: Push Docker Image
 on:
   workflow_dispatch:
 
+  push:
+    branches:
+      - main  # 当有新的推送到 main 分支时触发
+
+  schedule:
+    - cron: '0 2 * * 0'  # 每周日的 2:00 AM 触发
+
   release:
     types: [ published ]
 
